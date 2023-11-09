@@ -23,7 +23,7 @@
 - Russian
 ---
 ### COURSES:
--HTML and CSS in academy step
+-HTML and CSS in academy step<br>
 JavaScript Manual on learnjavascript.ru
 
 --- 
