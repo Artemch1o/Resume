@@ -21,3 +21,14 @@
 
 - English 
 - Russian
+---
+### COURSES:
+-HTML and CSS in academy step
+JavaScript Manual on learnjavascript.ru
+
+--- 
+### EDUCATION: 
+---
+Minsk Radio Engineering College<br>
+Years:2019-2023;<br>
+Specialization: programmer technician
