@@ -1,0 +1,54 @@
+.container__centerd {
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ec1010;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.column__two {
+    display: flex;
+
+    &__left {
+        width: 42%;
+        color: black;
+        background-color: green;
+    }
+
+    &__right {
+        width: 58%;
+        padding: 40px;
+    }
+}
+
+.information {
+    padding: 30px;
+    text-align: center;
+    background-color: yellowgreen;
+
+    &__picthers {
+        margin-bottom: 10px;
+        border: 10px solid red;
+        border-radius: 50%;
+    }
+
+    &__name {
+        color: #000;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__status {
+        color: #000;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
