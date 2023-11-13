@@ -11,16 +11,18 @@
 .column__two {
     display: flex;
 
-    &__left {
-        width: 42%;
-        color: black;
-        background-color: green;
-    }
 
-    &__right {
-        width: 58%;
-        padding: 40px;
-    }
+}
+
+.column__left {
+    width: 42%;
+
+}
+
+.column__right {
+    width: 58%;
+    padding: 40px;
+
 }
 
 .information {
@@ -31,7 +33,7 @@
     &__picthers {
         margin-bottom: 10px;
         border: 10px solid rgb(193, 193, 193);
-        border-radius: 50%;
+        border-radius: 10%;
     }
 
     &__name {
@@ -56,6 +58,7 @@
 main {
     padding: 0 40px;
     background-color: rgb(193, 193, 193);
+    height: 100vh;
 }
 
 main li {
@@ -67,13 +70,13 @@ main li {
 
     &__title {
         width: 136px;
-        margin: 40px auto 20px;
+        margin: 35px auto 20px;
         padding: 5px 20px;
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 1px;
         color: #ffffff;
-        background-color: red;
+        background-color: rgb(92, 89, 89);
         margin-top: 0;
         margin-bottom: 0;
         transform: translate(0, -50%);
@@ -99,11 +102,54 @@ main li {
         text-transform: uppercase;
         letter-spacing: 1px;
         color: #ffffff;
-        background-color: rgba(0, 0, 0, 0.23)
+        background-color: rgb(92, 89, 89)
     }
 
     &__point {
         list-style-type: disc;
         margin-left: 50px;
     }
+}
+
+.myself {
+    margin-top: 0;
+
+    &__sub-header {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+
+    }
+
+    &__text {
+        margin-left: 40px;
+
+    }
+
+    &__description {
+        flex: 1;
+        vertical-align: middle;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: black;
+        border-bottom: 2px solid rgb(92, 89, 89);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+.course li {
+    margin-left: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: rgb(200, 183, 183);
+
 }
